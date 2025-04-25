@@ -1,1 +1,1124 @@
-wait(1) local o = workspace.CurrentCamera local b = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101") local a = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local k = Instance.new("\83\99\114\101\101\110\71\117\105") local l = Instance.new("\70\114\97\109\101") local js = Instance.new("\85\73\67\111\114\110\101\114") local s = Instance.new("\73\109\97\103\101\76\97\98\101\108") local qr = Instance.new("\85\73\67\111\114\110\101\114") local r = Instance.new("\84\101\120\116\76\97\98\101\108") local q = Instance.new("\70\114\97\109\101") local pi = Instance.new("\85\73\67\111\114\110\101\114") local p = Instance.new("\70\114\97\109\101") local cf_ = Instance.new("\85\73\67\111\114\110\101\114") k.Name = "\77\97\105\110" k.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105") k.ZIndexBehavior = Enum.ZIndexBehavior.Sibling k.ResetOnSpawn = false k.DisplayOrder = 9999 l.Name = "\76\111\97\100\101\114" l.Parent = k l.BackgroundColor3 = Color3.fromRGB(29, 29, 29) l.BackgroundTransparency = 0.200 l.BorderColor3 = Color3.fromRGB(0, 0, 0) l.BorderSizePixel = 0 l.Position = UDim2.new(0.436969697, 0, 0.455082744, 0) l.Size = UDim2.new(0, 0, 0, 76) l.Active = true js.Parent = l s.Name = "\66\108\117\114" s.Parent = l s.BackgroundColor3 = Color3.fromRGB(255, 255, 255) s.BackgroundTransparency = 1.000 s.BorderColor3 = Color3.fromRGB(0, 0, 0) s.BorderSizePixel = 0 s.Position = UDim2.new(-0.00483091781, 0, 0, 0) s.Size = UDim2.new(0, 0, 0, 76) s.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" s.ImageTransparency = 0.550 qr.Parent = s r.Name = "\97\105\109\108\111\97\100\101\114" r.Parent = l r.BackgroundColor3 = Color3.fromRGB(255, 255, 255) r.BackgroundTransparency = 1.000 r.BorderColor3 = Color3.fromRGB(0, 0, 0) r.BorderSizePixel = 0 r.Position = UDim2.new(0.123442277, 0, 0.157894731, 0) r.Size = UDim2.new(0, 154, 0, 39) r.Font = Enum.Font.JosefinSans r.Text = "\"Aim hub\"" r.TextColor3 = Color3.fromRGB(255, 255, 255) r.TextSize = 20.000 r.TextWrapped = true r.TextTransparency = 1 q.Name = "\66\97\114" q.Parent = l q.BackgroundColor3 = Color3.fromRGB(84, 84, 84) q.BorderColor3 = Color3.fromRGB(0, 0, 0) q.BorderSizePixel = 0 q.Position = UDim2.new(0.128272906, 0, 0.75, 0) q.Size = UDim2.new(0, 154, 0, 6) q.Active = true q.BackgroundTransparency = 1 pi.Parent = q p.Name = "\76\111\97\100\101\100" p.Parent = l p.BackgroundColor3 = Color3.fromRGB(255, 255, 255) p.BorderColor3 = Color3.fromRGB(0, 0, 0) p.BorderSizePixel = 0 p.Position = UDim2.new(0.123441979, 0, 0.75, 0) p.Size = UDim2.new(0, 0, 0, 6) p.Active = true cf_.Parent = p local f_ = a:Create(l, TweenInfo.new(2), {Size = UDim2.new(0, 207, 0, 76)}) f_:Play() local cf = a:Create(s, TweenInfo.new(2), {Size = UDim2.new(0, 207, 0, 76)}) cf:Play() wait(1) local nc = a:Create(r, TweenInfo.new(1), {TextTransparency = 0}) nc:Play() wait(0.2) local m = a:Create(q, TweenInfo.new(1), {BackgroundTransparency = 0}) m:Play() local hm = a:Create(p, TweenInfo.new(2), {Size = UDim2.new(0, 97, 0, 6)}) hm:Play() wait(1.3) local ed = a:Create(p, TweenInfo.new(3.2), {Size = UDim2.new(0, 154, 0, 6)}) ed:Play() wait(4.2) local ed = a:Create(p, TweenInfo.new(3.2), {Size = UDim2.new(0, 154, 0, 6)}) ed:Play() wait(1.2) local oe = a:Create(s, TweenInfo.new(1), {ImageTransparency = 1}) oe:Play() local bo = a:Create(l, TweenInfo.new(1), {BackgroundTransparency = 1}) bo:Play() local ab = a:Create(q, TweenInfo.new(1), {BackgroundTransparency = 1}) ab:Play() local ka = a:Create(p, TweenInfo.new(1), {BackgroundTransparency = 1}) ka:Play() wait(0.2) local lk = a:Create(r, TweenInfo.new(1.5), {TextTransparency = 1}) lk:Play() l.Visible = false local gl = Instance.new("\84\101\120\116\76\97\98\101\108") local sg = Instance.new("\70\114\97\109\101") local js = Instance.new("\85\73\67\111\114\110\101\114") local rj = Instance.new("\73\109\97\103\101\76\97\98\101\108") local qr = Instance.new("\85\73\67\111\114\110\101\114") local iq = Instance.new("\70\114\97\109\101") local pi = Instance.new("\85\73\67\111\114\110\101\114") local _p = Instance.new("\84\101\120\116\76\97\98\101\108") local f_p = Instance.new("\73\109\97\103\101\76\97\98\101\108") local cf_ = Instance.new("\85\73\67\111\114\110\101\114") local ncf = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local mn = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local hmn = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local d = Instance.new("\84\101\120\116\76\97\98\101\108") local edh = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local oed = Instance.new("\84\101\120\116\76\97\98\101\108") local boe = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local abo = Instance.new("\84\101\120\116\76\97\98\101\108") local kab = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local js_5 = Instance.new("\85\73\67\111\114\110\101\114") local g = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local sgl = Instance.new("\85\73\67\111\114\110\101\114") local j = Instance.new("\73\109\97\103\101\76\97\98\101\108") local rjs = Instance.new("\84\101\120\116\76\97\98\101\108") local qrj = Instance.new("\84\101\120\116\76\97\98\101\108") local i = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local piq = Instance.new("\84\101\120\116\76\97\98\101\108") local _ = Instance.new("\70\114\97\109\101") local f_pi = Instance.new("\85\73\67\111\114\110\101\114") local cf_p = Instance.new("\73\109\97\103\101\76\97\98\101\108") local ncf_ = Instance.new("\85\73\67\111\114\110\101\114") local mnc = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local hmnc = Instance.new("\85\73\67\111\114\110\101\114") local dh = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local edhm = Instance.new("\84\101\120\116\76\97\98\101\108") local oedh = Instance.new("\84\101\120\116\76\97\98\101\108") local boed = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local aboe = Instance.new("\70\114\97\109\101") local kabo = Instance.new("\85\73\67\111\114\110\101\114") local lkab = Instance.new("\70\114\97\109\101") local glk = Instance.new("\85\73\67\111\114\110\101\114") local sglk = Instance.new("\84\101\120\116\76\97\98\101\108") local jsg = Instance.new("\73\109\97\103\101\76\97\98\101\108") local rjsg = Instance.new("\85\73\67\111\114\110\101\114") local qrjs = Instance.new("\73\109\97\103\101\76\97\98\101\108") local js_8 = Instance.new("\85\73\67\111\114\110\101\114") local piqr = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local _pi = Instance.new("\84\101\120\116\76\97\98\101\108") local f_piq = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local cf_pi = Instance.new("\84\101\120\116\76\97\98\101\108") local ncf_p = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local mncf = Instance.new("\84\101\120\116\76\97\98\101\108") local hmncf = Instance.new("\73\109\97\103\101\66\117\116\116\111\110") local dhm = Instance.new("\85\73\67\111\114\110\101\114") gl.Name = "\112\105\110\103" gl.Parent = k gl.BackgroundColor3 = Color3.fromRGB(255, 255, 255) gl.BackgroundTransparency = 1.000 gl.BorderColor3 = Color3.fromRGB(0, 0, 0) gl.BorderSizePixel = 0 gl.Position = UDim2.new(0.409000009, 0, 0, 0) gl.Size = UDim2.new(0, 329, 0, 62) gl.Font = Enum.Font.JosefinSans gl.Text = "\"RightShift\" To Open Menu" gl.TextColor3 = Color3.fromRGB(255, 255, 255) gl.TextSize = 22.000 gl.TextStrokeTransparency = 0.000 gl.TextTransparency = 1.000 sg.Name = "\66\97\115\105\99" sg.Parent = k sg.Active = true sg.BackgroundColor3 = Color3.fromRGB(29, 29, 29) sg.BackgroundTransparency = 0.200 sg.BorderColor3 = Color3.fromRGB(0, 0, 0) sg.BorderSizePixel = 0 sg.Draggable = true sg.Position = UDim2.new(0.400606066, 0, 0.381736517, 0) sg.Size = UDim2.new(0, 329, 0, 221) js.Parent = sg rj.Name = "\66\108\117\114\114\121" rj.Parent = sg rj.BackgroundColor3 = Color3.fromRGB(255, 255, 255) rj.BackgroundTransparency = 1.000 rj.BorderColor3 = Color3.fromRGB(0, 0, 0) rj.BorderSizePixel = 0 rj.Position = UDim2.new(-0.00483086752, 0, 0, 0) rj.Size = UDim2.new(0, 330, 0, 221) rj.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" rj.ImageTransparency = 0.550 qr.Parent = rj iq.Name = "\84\105\116\108\101" iq.Parent = sg iq.BackgroundColor3 = Color3.fromRGB(95, 95, 95) iq.BackgroundTransparency = 0.350 iq.BorderColor3 = Color3.fromRGB(0, 0, 0) iq.BorderSizePixel = 0 iq.Draggable = true iq.Position = UDim2.new(-0.00483086752, 0, 0, 0) iq.Size = UDim2.new(0, 331, 0, 24) pi.Parent = iq _p.Name = "\97\105\109\110\97\109\101" _p.Parent = iq _p.BackgroundColor3 = Color3.fromRGB(255, 255, 255) _p.BackgroundTransparency = 1.000 _p.BorderColor3 = Color3.fromRGB(0, 0, 0) _p.BorderSizePixel = 0 _p.Position = UDim2.new(0, 0, -0.000333150238, 0) _p.Size = UDim2.new(0, 329, 0, 25) _p.Font = Enum.Font.JosefinSans _p.Text = "\"Aim hub\"" _p.TextColor3 = Color3.fromRGB(255, 255, 255) _p.TextSize = 14.000 _p.TextWrapped = true f_p.Name = "\66\108\117\114\114\101\100" f_p.Parent = iq f_p.BackgroundColor3 = Color3.fromRGB(255, 255, 255) f_p.BackgroundTransparency = 1.000 f_p.BorderColor3 = Color3.fromRGB(0, 0, 0) f_p.BorderSizePixel = 0 f_p.Position = UDim2.new(-0.00178288843, 0, 0, 0) f_p.Size = UDim2.new(0, 332, 0, 24) f_p.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" f_p.ImageTransparency = 0.550 cf_.Parent = f_p ncf.Name = "\69\115\112\69\110\97\98\108\101" ncf.Parent = sg ncf.BackgroundColor3 = Color3.fromRGB(148, 148, 148) ncf.BackgroundTransparency = 1.000 ncf.BorderColor3 = Color3.fromRGB(0, 0, 0) ncf.BorderSizePixel = 0 ncf.Position = UDim2.new(0.258358657, 0, 0.244164556, 0) ncf.Size = UDim2.new(0, 16, 0, 16) ncf.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" mn.Name = "\84\101\97\109\67\104\101\99\107" mn.Parent = sg mn.BackgroundColor3 = Color3.fromRGB(148, 148, 148) mn.BackgroundTransparency = 1.000 mn.BorderColor3 = Color3.fromRGB(0, 0, 0) mn.BorderSizePixel = 0 mn.Position = UDim2.new(0.258358657, 0, 0.430164546, 0) mn.Size = UDim2.new(0, 16, 0, 16) mn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" hmn.Name = "\65\105\109\69\110\97\98\108\101" hmn.Parent = sg hmn.BackgroundColor3 = Color3.fromRGB(148, 148, 148) hmn.BackgroundTransparency = 1.000 hmn.BorderColor3 = Color3.fromRGB(0, 0, 0) hmn.BorderSizePixel = 0 hmn.Position = UDim2.new(0.742358685, 0, 0.245164558, 0) hmn.Size = UDim2.new(0, 16, 0, 16) hmn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" d.Name = "\84\101\97\109\84\101\120\116" d.Parent = sg d.BackgroundColor3 = Color3.fromRGB(255, 255, 255) d.BackgroundTransparency = 1.000 d.BorderColor3 = Color3.fromRGB(0, 0, 0) d.BorderSizePixel = 0 d.Position = UDim2.new(0.450395137, 0, 0.424177229, 0) d.Size = UDim2.new(0, 111, 0, 23) d.Font = Enum.Font.JosefinSans d.Text = "\84\101\97\109\32\67\104\101\99\107" d.TextColor3 = Color3.fromRGB(255, 255, 255) d.TextSize = 10.000 edh.Name = "\84\101\97\109\67\104\101\99\107\50" edh.Parent = sg edh.BackgroundColor3 = Color3.fromRGB(148, 148, 148) edh.BackgroundTransparency = 1.000 edh.BorderColor3 = Color3.fromRGB(0, 0, 0) edh.BorderSizePixel = 0 edh.Position = UDim2.new(0.742358685, 0, 0.431164563, 0) edh.Size = UDim2.new(0, 16, 0, 16) edh.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" oed.Name = "\84\101\97\109\84\101\120\116\50" oed.Parent = sg oed.BackgroundColor3 = Color3.fromRGB(255, 255, 255) oed.BackgroundTransparency = 1.000 oed.BorderColor3 = Color3.fromRGB(0, 0, 0) oed.BorderSizePixel = 0 oed.Position = UDim2.new(-0.0303951371, 0, 0.418177217, 0) oed.Size = UDim2.new(0, 111, 0, 23) oed.Font = Enum.Font.JosefinSans oed.Text = "\84\101\97\109\32\67\104\101\99\107" oed.TextColor3 = Color3.fromRGB(255, 255, 255) oed.TextSize = 10.000 boe.Name = "\78\97\109\101\84\111\103\108\101" boe.Parent = sg boe.BackgroundColor3 = Color3.fromRGB(148, 148, 148) boe.BackgroundTransparency = 1.000 boe.BorderColor3 = Color3.fromRGB(0, 0, 0) boe.BorderSizePixel = 0 boe.Position = UDim2.new(0.258358657, 0, 0.610164583, 0) boe.Size = UDim2.new(0, 16, 0, 16) boe.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" abo.Name = "\78\97\109\101\116" abo.Parent = sg abo.BackgroundColor3 = Color3.fromRGB(255, 255, 255) abo.BackgroundTransparency = 1.000 abo.BorderColor3 = Color3.fromRGB(0, 0, 0) abo.BorderSizePixel = 0 abo.Position = UDim2.new(-0.0303951371, 0, 0.602177203, 0) abo.Size = UDim2.new(0, 111, 0, 23) abo.Font = Enum.Font.JosefinSans abo.Text = "\68\114\97\119\32\70\79\86" abo.TextColor3 = Color3.fromRGB(255, 255, 255) abo.TextSize = 10.000 kab.Name = "\67\108\111\115\101" kab.Parent = sg kab.BackgroundColor3 = Color3.fromRGB(22, 22, 22) kab.BackgroundTransparency = 0.650 kab.BorderColor3 = Color3.fromRGB(0, 0, 0) kab.BorderSizePixel = 0 kab.Position = UDim2.new(0.927358627, 0, 0.0253164563, 0) kab.Size = UDim2.new(0, 16, 0, 16) kab.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\48\48\48\50\51\55\51\52\55\56" js_5.CornerRadius = UDim.new(0, 5) js_5.Parent = kab g.Name = "\77\105\110\105" g.Parent = sg g.BackgroundColor3 = Color3.fromRGB(22, 22, 22) g.BackgroundTransparency = 0.650 g.BorderColor3 = Color3.fromRGB(0, 0, 0) g.BorderSizePixel = 0 g.Position = UDim2.new(0.837358654, 0, 0.0253164563, 0) g.Size = UDim2.new(0, 16, 0, 16) g.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\56\52\56\50\51\55\51\49\51" sgl.CornerRadius = UDim.new(0, 5) sgl.Parent = g j.Name = "\108\105\110\101" j.Parent = sg j.BackgroundColor3 = Color3.fromRGB(255, 255, 255) j.BackgroundTransparency = 1.000 j.BorderColor3 = Color3.fromRGB(0, 0, 0) j.BorderSizePixel = 0 j.Position = UDim2.new(0.495440722, 0, 0.196202889, 0) j.Size = UDim2.new(0, 33, 0, 147) j.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\52\53\49\57\55\55\49\53\49\53" rjs.Name = "\69\115\112\84\101\120\116" rjs.Parent = sg rjs.BackgroundColor3 = Color3.fromRGB(255, 255, 255) rjs.BackgroundTransparency = 1.000 rjs.BorderColor3 = Color3.fromRGB(0, 0, 0) rjs.BorderSizePixel = 0 rjs.Position = UDim2.new(-0.0303951371, 0, 0.234177217, 0) rjs.Size = UDim2.new(0, 111, 0, 23) rjs.Font = Enum.Font.JosefinSans rjs.Text = "\80\108\97\121\101\114\32\69\83\80" rjs.TextColor3 = Color3.fromRGB(255, 255, 255) rjs.TextSize = 10.000 qrj.Name = "\65\105\109\98\111\116\84\101\120\116" qrj.Parent = sg qrj.BackgroundColor3 = Color3.fromRGB(255, 255, 255) qrj.BackgroundTransparency = 1.000 qrj.BorderColor3 = Color3.fromRGB(0, 0, 0) qrj.BorderSizePixel = 0 qrj.Position = UDim2.new(0.450395137, 0, 0.231177211, 0) qrj.Size = UDim2.new(0, 111, 0, 23) qrj.Font = Enum.Font.JosefinSans qrj.Text = "\66\108\97\116\97\110\116\32\65\105\109\98\111\116" qrj.TextColor3 = Color3.fromRGB(255, 255, 255) qrj.TextSize = 10.000 i.Name = "\73\110\102\74\117\109\112" i.Parent = sg i.BackgroundColor3 = Color3.fromRGB(148, 148, 148) i.BackgroundTransparency = 1.000 i.BorderColor3 = Color3.fromRGB(0, 0, 0) i.BorderSizePixel = 0 i.Position = UDim2.new(0.259076059, 0, 0.793481112, 0) i.Size = UDim2.new(0, 16, 0, 16) i.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" piq.Name = "\73\110\102\84\101\120\116" piq.Parent = sg piq.BackgroundColor3 = Color3.fromRGB(255, 255, 255) piq.BackgroundTransparency = 1.000 piq.BorderColor3 = Color3.fromRGB(0, 0, 0) piq.BorderSizePixel = 0 piq.Position = UDim2.new(-0.0332827121, 0, 0.777658224, 0) piq.Size = UDim2.new(0, 111, 0, 23) piq.Font = Enum.Font.JosefinSans piq.Text = "\73\110\102\105\110\105\116\101\32\74\117\109\112" piq.TextColor3 = Color3.fromRGB(255, 255, 255) piq.TextSize = 10.000 _.Name = "\66\111\116\116\111\109" _.Parent = sg _.BackgroundColor3 = Color3.fromRGB(29, 29, 29) _.BackgroundTransparency = 0.200 _.BorderColor3 = Color3.fromRGB(0, 0, 0) _.BorderSizePixel = 0 _.Draggable = true _.Position = UDim2.new(-0.00787019543, 0, 1.03784513, 0) _.Size = UDim2.new(0, 331, 0, 31) f_pi.Name = "\89\97\121\121" f_pi.Parent = _ cf_p.Name = "\69\102\102\101\99\116" cf_p.Parent = _ cf_p.BackgroundColor3 = Color3.fromRGB(255, 255, 255) cf_p.BackgroundTransparency = 1.000 cf_p.BorderColor3 = Color3.fromRGB(0, 0, 0) cf_p.BorderSizePixel = 0 cf_p.Position = UDim2.new(-0.00180053711, 0, 0, 0) cf_p.Size = UDim2.new(0, 331, 0, 30) cf_p.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" cf_p.ImageTransparency = 0.550 ncf_.Name = "\110\101\119\102\114" ncf_.Parent = cf_p mnc.Name = "\71\117\110\115\77" mnc.Parent = _ mnc.BackgroundColor3 = Color3.fromRGB(22, 22, 22) mnc.BackgroundTransparency = 0.650 mnc.BorderColor3 = Color3.fromRGB(0, 0, 0) mnc.BorderSizePixel = 0 mnc.Position = UDim2.new(0.0814373121, 0, 0.129032254, 0) mnc.Size = UDim2.new(0, 76, 0, 22) mnc.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\52\51\48\49\57\49\51\51\55" hmnc.CornerRadius = UDim.new(0, 5) hmnc.Name = "\109\101\111" hmnc.Parent = mnc dh.Name = "\83\105\108\101\110\116\65\105\109" dh.Parent = sg dh.BackgroundColor3 = Color3.fromRGB(148, 148, 148) dh.BackgroundTransparency = 1.000 dh.BorderColor3 = Color3.fromRGB(0, 0, 0) dh.BorderSizePixel = 0 dh.Position = UDim2.new(0.742358744, 0, 0.613827407, 0) dh.Size = UDim2.new(0, 16, 0, 16) dh.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" edhm.Name = "\83\105\108\101\110\116\84\101\120\116" edhm.Parent = sg edhm.BackgroundColor3 = Color3.fromRGB(255, 255, 255) edhm.BackgroundTransparency = 1.000 edhm.BorderColor3 = Color3.fromRGB(0, 0, 0) edhm.BorderSizePixel = 0 edhm.Position = UDim2.new(0.449999958, 0, 0.599004567, 0) edhm.Size = UDim2.new(0, 111, 0, 23) edhm.Font = Enum.Font.JosefinSans edhm.Text = "\79\80\32\83\105\108\101\110\116\32\65\105\109" edhm.TextColor3 = Color3.fromRGB(255, 255, 255) edhm.TextSize = 10.000 oedh.Name = "\83\112\101\101\100\84\101\120\116" oedh.Parent = sg oedh.BackgroundColor3 = Color3.fromRGB(255, 255, 255) oedh.BackgroundTransparency = 1.000 oedh.BorderColor3 = Color3.fromRGB(0, 0, 0) oedh.BorderSizePixel = 0 oedh.Position = UDim2.new(0.448801696, 0, 0.777553499, 0) oedh.Size = UDim2.new(0, 111, 0, 23) oedh.Font = Enum.Font.JosefinSans oedh.Text = "\83\112\101\101\100\32\72\97\99\107" oedh.TextColor3 = Color3.fromRGB(255, 255, 255) oedh.TextSize = 10.000 boed.Name = "\83\112\101\101\100\72\97\99\107" boed.Parent = sg boed.BackgroundColor3 = Color3.fromRGB(148, 148, 148) boed.BackgroundTransparency = 1.000 boed.BorderColor3 = Color3.fromRGB(0, 0, 0) boed.BorderSizePixel = 0 boed.Position = UDim2.new(0.741797566, 0, 0.790223122, 0) boed.Size = UDim2.new(0, 16, 0, 16) boed.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" aboe.Name = "\77\111\100\115" aboe.Parent = k aboe.Active = true aboe.BackgroundColor3 = Color3.fromRGB(29, 29, 29) aboe.BackgroundTransparency = 0.200 aboe.BorderColor3 = Color3.fromRGB(0, 0, 0) aboe.BorderSizePixel = 0 aboe.Draggable = true aboe.Position = UDim2.new(0.712401628, 0, 0.391192794, 0) aboe.Size = UDim2.new(0, 183, 0, 221) aboe.Visible = false kabo.Name = "\99\97\119\100" kabo.Parent = aboe lkab.Name = "\84\105\116\108\101" lkab.Parent = aboe lkab.BackgroundColor3 = Color3.fromRGB(95, 95, 95) lkab.BackgroundTransparency = 0.350 lkab.BorderColor3 = Color3.fromRGB(0, 0, 0) lkab.BorderSizePixel = 0 lkab.Draggable = true lkab.Position = UDim2.new(-0.00142020232, 0, 0, 0) lkab.Size = UDim2.new(0, 183, 0, 24) glk.Name = "\119\97\99\100" glk.Parent = lkab sglk.Name = "\77\111\100\78\97\109\101" sglk.Parent = lkab sglk.BackgroundColor3 = Color3.fromRGB(255, 255, 255) sglk.BackgroundTransparency = 1.000 sglk.BorderColor3 = Color3.fromRGB(0, 0, 0) sglk.BorderSizePixel = 0 sglk.Position = UDim2.new(-0.00955917314, 0, -0.000333150238, 0) sglk.Size = UDim2.new(0, 184, 0, 25) sglk.Font = Enum.Font.JosefinSans sglk.Text = "\"Weapon Mods\"" sglk.TextColor3 = Color3.fromRGB(255, 255, 255) sglk.TextSize = 14.000 sglk.TextWrapped = true jsg.Name = "\97\98\99\98\108\117\114" jsg.Parent = lkab jsg.BackgroundColor3 = Color3.fromRGB(255, 255, 255) jsg.BackgroundTransparency = 1.000 jsg.BorderColor3 = Color3.fromRGB(0, 0, 0) jsg.BorderSizePixel = 0 jsg.Position = UDim2.new(-0.00285597844, 0, 0, 0) jsg.Size = UDim2.new(0, 183, 0, 24) jsg.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" jsg.ImageTransparency = 0.550 rjsg.Parent = jsg qrjs.Name = "\98\108\111\111\114" qrjs.Parent = aboe qrjs.BackgroundColor3 = Color3.fromRGB(255, 255, 255) qrjs.BackgroundTransparency = 1.000 qrjs.BorderColor3 = Color3.fromRGB(0, 0, 0) qrjs.BorderSizePixel = 0 qrjs.Position = UDim2.new(-0.00142020232, 0, 0, 0) qrjs.Size = UDim2.new(0, 183, 0, 221) qrjs.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\55\53\56\57\54\50\48\51\52" qrjs.ImageTransparency = 0.550 js_8.Parent = qrjs piqr.Name = "\73\110\102\65\109\109\111" piqr.Parent = aboe piqr.BackgroundColor3 = Color3.fromRGB(148, 148, 148) piqr.BackgroundTransparency = 1.000 piqr.BorderColor3 = Color3.fromRGB(0, 0, 0) piqr.BorderSizePixel = 0 piqr.Position = UDim2.new(0.660391748, 0, 0.16782707, 0) piqr.Size = UDim2.new(0, 16, 0, 16) piqr.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" _pi.Name = "\65\109\109\111\84\101\120\116" _pi.Parent = aboe _pi.BackgroundColor3 = Color3.fromRGB(255, 255, 255) _pi.BackgroundTransparency = 1.000 _pi.BorderColor3 = Color3.fromRGB(0, 0, 0) _pi.BorderSizePixel = 0 _pi.Position = UDim2.new(0.100273088, 0, 0.152036086, 0) _pi.Size = UDim2.new(0, 111, 0, 23) _pi.Font = Enum.Font.JosefinSans _pi.Text = "\65\109\109\111\32\77\111\100" _pi.TextColor3 = Color3.fromRGB(255, 255, 255) _pi.TextSize = 10.000 f_piq.Name = "\70\70\83\112\101\101\100" f_piq.Parent = aboe f_piq.BackgroundColor3 = Color3.fromRGB(148, 148, 148) f_piq.BackgroundTransparency = 1.000 f_piq.BorderColor3 = Color3.fromRGB(0, 0, 0) f_piq.BorderSizePixel = 0 f_piq.Position = UDim2.new(0.660391748, 0, 0.317148328, 0) f_piq.Size = UDim2.new(0, 16, 0, 16) f_piq.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" cf_pi.Name = "\70\70\83\112\101\101\100\84\101\120\116" cf_pi.Parent = aboe cf_pi.BackgroundColor3 = Color3.fromRGB(255, 255, 255) cf_pi.BackgroundTransparency = 1.000 cf_pi.BorderColor3 = Color3.fromRGB(0, 0, 0) cf_pi.BorderSizePixel = 0 cf_pi.Position = UDim2.new(0.100273088, 0, 0.301357359, 0) cf_pi.Size = UDim2.new(0, 111, 0, 23) cf_pi.Font = Enum.Font.JosefinSans cf_pi.Text = "\70\105\114\101\82\97\116\101\32\77\111\100" cf_pi.TextColor3 = Color3.fromRGB(255, 255, 255) cf_pi.TextSize = 10.000 ncf_p.Name = "\82\101\99\111\105\108" ncf_p.Parent = aboe ncf_p.BackgroundColor3 = Color3.fromRGB(148, 148, 148) ncf_p.BackgroundTransparency = 1.000 ncf_p.BorderColor3 = Color3.fromRGB(0, 0, 0) ncf_p.BorderSizePixel = 0 ncf_p.Position = UDim2.new(0.660391748, 0, 0.467148328, 0) ncf_p.Size = UDim2.new(0, 16, 0, 16) ncf_p.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\55\51\57\55\51\54\48\51\51\57" mncf.Name = "\82\101\99\111\105\108\84\101\120\116" mncf.Parent = aboe mncf.BackgroundColor3 = Color3.fromRGB(255, 255, 255) mncf.BackgroundTransparency = 1.000 mncf.BorderColor3 = Color3.fromRGB(0, 0, 0) mncf.BorderSizePixel = 0 mncf.Position = UDim2.new(0.100273088, 0, 0.450357359, 0) mncf.Size = UDim2.new(0, 111, 0, 23) mncf.Font = Enum.Font.JosefinSans mncf.Text = "\82\101\99\111\105\108\32\77\111\100" mncf.TextColor3 = Color3.fromRGB(255, 255, 255) mncf.TextSize = 10.000 hmncf.Name = "\67\108\111\115\101" hmncf.Parent = aboe hmncf.BackgroundColor3 = Color3.fromRGB(22, 22, 22) hmncf.BackgroundTransparency = 0.650 hmncf.BorderColor3 = Color3.fromRGB(0, 0, 0) hmncf.BorderSizePixel = 0 hmncf.Position = UDim2.new(0.861785054, 0, 0.016266698, 0) hmncf.Size = UDim2.new(0, 16, 0, 16) hmncf.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\48\48\48\50\51\55\51\52\55\56" dhm.CornerRadius = UDim.new(0, 5) dhm.Parent = hmncf wait(0.5) sg.Visible = true local edhmn = a:Create(sg, TweenInfo.new(1.5), {BackgroundTransparency = 0.2}) edhmn:Play() kab.MouseButton1Down:connect(function() sg:Destroy() end) mnc.MouseButton1Down:connect(function() aboe.Visible = true end) hmncf.MouseButton1Down:connect(function() aboe.Visible = false end) ncf_p.MouseButton1Down:connect(function() local sglka = game.ReplicatedStorage while wait(5) do for i, v in pairs(sglka.Weapons:GetDescendants()) do if v.Name == "\82\101\99\111\105\108\67\111\110\116\114\111\108" then v.Value = 0 end if v.Name == "\77\97\120\83\112\114\101\97\100" then v.Value = 0 end end end end) i.MouseButton1Down:connect(function() local boedh = true game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101").JumpRequest:Connect(function() if boedh then game:GetService("\80\108\97\121\101\114\115").LocalPlayer.Character:FindFirstChildOfClass("\72\117\109\97\110\111\105\100"):ChangeState("\74\117\109\112\105\110\103") end end) end) boed.MouseButton1Down:connect(function() _G.WS = "\49\48\48"; local aboed = game:GetService("\80\108\97\121\101\114\115").LocalPlayer.Character.Humanoid; aboed:GetPropertyChangedSignal("\87\97\108\107\83\112\101\101\100"):Connect(function() aboed.WalkSpeed = _G.WS; end) aboed.WalkSpeed = _G.WS; end) f_piq.MouseButton1Down:connect(function() local sglka = game.ReplicatedStorage while wait(5) do for i, v in pairs(sglka.Weapons:GetDescendants()) do if v.Name == "\65\117\116\111" then v.Value = true end if v.Name == "\70\105\114\101\82\97\116\101" then v.Value = 0.02 end end end end) dh.MouseButton1Down:connect(function() function c() for i,v in pairs(game:GetChildren()) do if v.ClassName == "\80\108\97\121\101\114\115" then return v.Name end end end local lkabo = c() local glka = game[lkabo].LocalPlayer coroutine.resume(coroutine.create(function() while  wait(1) do coroutine.resume(coroutine.create(function() for _,v in pairs(game[lkabo]:GetPlayers()) do if v.Name ~= glka.Name and v.Character then v.Character.RightUpperLeg.CanCollide = false v.Character.RightUpperLeg.Transparency = 10 v.Character.RightUpperLeg.Size = Vector3.new(13,13,13) v.Character.LeftUpperLeg.CanCollide = false v.Character.LeftUpperLeg.Transparency = 10 v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13) v.Character.HeadHB.CanCollide = false v.Character.HeadHB.Transparency = 10 v.Character.HeadHB.Size = Vector3.new(13,13,13) v.Character.HumanoidRootPart.CanCollide = false v.Character.HumanoidRootPart.Transparency = 10 v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13) end end end)) end end)) end) piqr.MouseButton1Down:connect(function() local sglka = game.ReplicatedStorage while wait() do game:GetService("\80\108\97\121\101\114\115").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount.Value = 999 game:GetService("\80\108\97\121\101\114\115").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount2.Value = 999 end end) local jsgl = true g.MouseButton1Down:connect(function() sg.Visible = false jsgl = false local rjsgl = a:Create(gl, TweenInfo.new(1), {TextTransparency = 0}) rjsgl:Play() wait(3) local qrjsg = a:Create(gl, TweenInfo.new(1), {TextTransparency = 1}) qrjsg:Play() end) b.InputBegan:Connect(function (n) if n.KeyCode == Enum.KeyCode.RightShift then if jsgl == false then local iqrj = a:Create(sg, TweenInfo.new(1.5), {Visible = true}) iqrj:Play() jsgl = true end end end) local piqrj = false ncf.MouseButton1Down:connect(function() if piqrj == false then piqrj = true ncf.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" else do piqrj = false ncf.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" end end end) _G.sizeof = 55 _G.AimOn = false _G.TeamCheckOn = true _G.Aimpart = "\72\101\97\100" _G.Sensitivity = 0.03 _G.CircleSides = 64 _G.CircleColor = Color3.fromRGB(255, 255, 255) _G.CircleVisible = true _G.fovTransparency = 0 hmn.MouseButton1Down:connect(function() if AimOn == false then AimOn = true _G.fovTransparency = 1 hmn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" else do AimOn = false _G.fovTransparency = 0 hmn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" end end end) local _piq = false mn.MouseButton1Down:connect(function() if _piq == false then _piq = true mn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" else do _piq = false mn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" end end end) edh.MouseButton1Down:connect(function() if _G.TeamCheckOn == false then _G.TeamCheckOn = true edh.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" else do _G.TeamCheckOn = false edh.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" end end end) boe.MouseButton1Down:connect(function() if _G.CircleVisible == false then _G.CircleVisible = true boe.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\53\55\53\54" else do _G.CircleVisible = false boe.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\50\54\52\53\49\51\51\55\52" end end end) local f_piqr = game:GetService("\82\117\110\83\101\114\118\105\99\101") local cf_piq = game:GetService("\80\108\97\121\101\114\115") local ncf_pi = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105") local mncf_ = Instance.new("\84\101\120\116\76\97\98\101\108") local hmncf_ = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105") local dhmn = Instance.new("\73\109\97\103\101\76\97\98\101\108") local edhmnc = cf_piq.LocalPlayer ncf_pi.Name = "\101\115\112"  ncf_pi.ZIndexBehavior = Enum.ZIndexBehavior.Sibling ncf_pi.Active = true ncf_pi.AlwaysOnTop = true ncf_pi.LightInfluence = 1.000 ncf_pi.Size = UDim2.new(0, 300, 0, 30) ncf_pi.StudsOffset = Vector3.new(0, 3, 0) mncf_.Name = "\110\97\109\101" mncf_.Parent = ncf_pi mncf_.BackgroundColor3 = Color3.fromRGB(255, 255, 255) mncf_.BackgroundTransparency = 1.000 mncf_.BorderColor3 = Color3.fromRGB(0, 0, 0) mncf_.BorderSizePixel = 0 mncf_.Size = UDim2.new(1, 0, 1, 0) mncf_.Font = Enum.Font.Ubuntu mncf_.TextColor3 = Color3.fromRGB(255, 255, 255) mncf_.TextScaled = false mncf_.TextSize = 9.000 mncf_.TextStrokeTransparency = 0.000 mncf_.TextWrapped = true mncf_.TextTransparency = 1 hmncf_.Name = "\109\97\105\110\101\115\112" hmncf_.ZIndexBehavior = Enum.ZIndexBehavior.Sibling hmncf_.Active = true hmncf_.AlwaysOnTop = true hmncf_.LightInfluence = 1.000 hmncf_.MaxDistance = 999999.000 hmncf_.Size = UDim2.new(4, 0, 6, 0) dhmn.Name = "\98\111\120" dhmn.Parent = hmncf_ dhmn.BackgroundColor3 = Color3.fromRGB(255, 255, 255) dhmn.BackgroundTransparency = 1.000 dhmn.BorderColor3 = Color3.fromRGB(0, 0, 0) dhmn.BorderSizePixel = 0 dhmn.Size = UDim2.new(1, 0, 1, 0) dhmn.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\49\54\57\52\54\54\48\56\53\56\53" dhmn.ImageTransparency = 1 f_piqr.RenderStepped:Connect(function() for i, v in pairs(cf_piq:GetChildren()) do local glkab = cf_piq.LocalPlayer if not v.Character.Head:FindFirstChild("\101\115\112") then if v ~= game.Players.LocalPlayer then local glkab = cf_piq.LocalPlayer local sglkab = ncf_pi:Clone() local jsglk = hmncf_:Clone() sglkab.Parent = v.Character:FindFirstChild("\72\101\97\100") sglkab:FindFirstChild("\110\97\109\101").Text = sglkab.Parent.Parent.Name jsglk.Parent = v.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") end end end end) cf_piq.PlayerAdded:Connect(function(h) local glkab = cf_piq.LocalPlayer if not h.Character.Head:FindFirstChild("\101\115\112") then if h ~= game.Players.LocalPlayer then local glkab = cf_piq.LocalPlayer local sglkab = ncf_pi:Clone() local jsglk = hmncf_:Clone() sglkab.Parent = h.Character:FindFirstChild("\72\101\97\100") sglkab:FindFirstChild("\110\97\109\101").Text = sglkab.Parent.Parent.Name wait(1) jsglk.Parent = h.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") end end end) f_piqr.RenderStepped:Connect(function() for i, v in pairs(cf_piq:GetChildren()) do local qrjsgl = cf_piq.LocalPlayer if _piq == true then if v ~= qrjsgl then if v.Team == qrjsgl.Team then if v.Character.Head:FindFirstChild("\101\115\112") then v.Character.Head:FindFirstChild("\101\115\112"):Destroy() v.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112"):Destroy() end end end end end end) cf_piq.PlayerAdded:Connect(function(h) local qrjsgl = cf_piq.LocalPlayer if h ~= qrjsgl then if _piq == true then if h.Team == qrjsgl.Team then if h.Character.Head:FindFirstChild("\101\115\112") then h.Character.Head:FindFirstChild("\101\115\112"):Destroy() h.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112"):Destroy() end end end end end) f_piqr.RenderStepped:Connect(function() for i, v in pairs(cf_piq:GetChildren()) do if piqrj == true then if v.Character.Head:FindFirstChild("\101\115\112") then if v.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112") then v.Character.Head:FindFirstChild("\101\115\112").name.TextTransparency = 0 v.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112").box.ImageTransparency = 0.43 end end else do if v.Character.Head:FindFirstChild("\101\115\112") then if v.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112") then v.Character.Head:FindFirstChild("\101\115\112").name.TextTransparency = 1 v.Character.HumanoidRootPart:FindFirstChild("\109\97\105\110\101\115\112").box.ImageTransparency = 1 end end end end end end) local iqrjs = false local piqrjs = Drawing.new("\67\105\114\99\108\101") piqrjs.Position = Vector2.new(o.ViewportSize.X / 2, o.ViewportSize.Y / 2) piqrjs.Radius = _G.sizeof piqrjs.Color = _G.CircleColor piqrjs.Visible = _G.CircleVisible piqrjs.NumSides = _G.CircleSides piqrjs.Filled = false piqrjs.Transparency = _G.fovTransparency piqrjs.Thickness = 0 local function f() local _piqr = nil local f_piqrj = _G.sizeof for i, v in next, cf_piq:GetChildren() do if v.Name ~= edhmnc.Name then if _G.TeamCheckOn == true then if v.Team ~= edhmnc.Team then if v.Character ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100") ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100").Health ~= 0 then local mncf_p = o:WorldToScreenPoint(v.Character:WaitForChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116", math.huge).Position) local hmncf_p = (Vector2.new(b:GetMouseLocation().X, b:GetMouseLocation().Y) - Vector2.new(mncf_p.X, mncf_p.Y)).Magnitude if hmncf_p < f_piqrj then _piqr = v end end end end end end else if v.Character ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100") ~= nil then if v.Character:FindFirstChild("\72\117\109\97\110\111\105\100").Health ~= 0 then local mncf_p = o:WorldToScreenPoint(v.Character:WaitForChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116", math.huge).Position) local hmncf_p = (Vector2.new(b:GetMouseLocation().X, b:GetMouseLocation().Y) - Vector2.new(mncf_p.X, mncf_p.Y)).Magnitude if hmncf_p < f_piqrj then _piqr = v end end end end end end end end return _piqr end b.InputBegan:Connect(function(e) if e.UserInputType == Enum.UserInputType.MouseButton2 then iqrjs = true end end) b.InputEnded:Connect(function(e) if e.UserInputType == Enum.UserInputType.MouseButton2 then iqrjs = false end end) f_piqr.RenderStepped:Connect(function () piqrjs.Position = Vector2.new(b:GetMouseLocation().X, b:GetMouseLocation().Y) piqrjs.Radius = _G.sizeof piqrjs.Color = _G.CircleColor piqrjs.Visible = _G.CircleVisible piqrjs.NumSides = _G.CircleSides piqrjs.Filled = false piqrjs.Transparency = _G.fovTransparency piqrjs.Thickness = 0 if iqrjs == true and AimOn == true then a:Create(o, TweenInfo.new(_G.Sensitivity, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(o.CFrame.Position, f().Character[_G.Aimpart].Position)}):Play() end end)
+wait(1)
+
+local Camera = workspace.CurrentCamera
+local uis = game:GetService("UserInputService")
+local ts = game:GetService("TweenService")
+local Main = Instance.new("ScreenGui")
+local Loader = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Blur = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local aimloader = Instance.new("TextLabel")
+local Bar = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Loaded = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Main.ResetOnSpawn = false
+Main.DisplayOrder = 9999
+
+Loader.Name = "Loader"
+Loader.Parent = Main
+Loader.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Loader.BackgroundTransparency = 0.200
+Loader.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loader.BorderSizePixel = 0
+Loader.Position = UDim2.new(0.436969697, 0, 0.455082744, 0)
+Loader.Size = UDim2.new(0, 0, 0, 76)
+Loader.Active = true
+
+UICorner.Parent = Loader
+
+Blur.Name = "Blur"
+Blur.Parent = Loader
+Blur.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blur.BackgroundTransparency = 1.000
+Blur.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Blur.BorderSizePixel = 0
+Blur.Position = UDim2.new(-0.00483091781, 0, 0, 0)
+Blur.Size = UDim2.new(0, 0, 0, 76)
+Blur.Image = "http://www.roblox.com/asset/?id=6758962034"
+Blur.ImageTransparency = 0.550
+
+UICorner_2.Parent = Blur
+
+aimloader.Name = "aimloader"
+aimloader.Parent = Loader
+aimloader.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimloader.BackgroundTransparency = 1.000
+aimloader.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aimloader.BorderSizePixel = 0
+aimloader.Position = UDim2.new(0.123442277, 0, 0.157894731, 0)
+aimloader.Size = UDim2.new(0, 154, 0, 39)
+aimloader.Font = Enum.Font.JosefinSans
+aimloader.Text = "\"Aim hub\""
+aimloader.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimloader.TextSize = 20.000
+aimloader.TextWrapped = true
+aimloader.TextTransparency = 1
+
+Bar.Name = "Bar"
+Bar.Parent = Loader
+Bar.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0.128272906, 0, 0.75, 0)
+Bar.Size = UDim2.new(0, 154, 0, 6)
+Bar.Active = true
+Bar.BackgroundTransparency = 1
+
+UICorner_3.Parent = Bar
+
+Loaded.Name = "Loaded"
+Loaded.Parent = Loader
+Loaded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loaded.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loaded.BorderSizePixel = 0
+Loaded.Position = UDim2.new(0.123441979, 0, 0.75, 0)
+Loaded.Size = UDim2.new(0, 0, 0, 6)
+Loaded.Active = true
+
+UICorner_4.Parent = Loaded
+
+local popup = ts:Create(Loader, TweenInfo.new(2), {Size = UDim2.new(0, 207, 0, 76)})
+popup:Play()
+
+local popup2 = ts:Create(Blur, TweenInfo.new(2), {Size = UDim2.new(0, 207, 0, 76)})
+popup2:Play()
+
+wait(1)
+
+local pop = ts:Create(aimloader, TweenInfo.new(1), {TextTransparency = 0})
+pop:Play()
+
+wait(0.2)
+
+local pop2 = ts:Create(Bar, TweenInfo.new(1), {BackgroundTransparency = 0})
+pop2:Play()
+
+local Loading = ts:Create(Loaded, TweenInfo.new(2), {Size = UDim2.new(0, 97, 0, 6)})
+Loading:Play()
+
+wait(1.3)
+
+local Loading2 = ts:Create(Loaded, TweenInfo.new(3.2), {Size = UDim2.new(0, 154, 0, 6)})
+Loading2:Play()
+
+wait(4.2)
+
+local Loading2 = ts:Create(Loaded, TweenInfo.new(3.2), {Size = UDim2.new(0, 154, 0, 6)})
+Loading2:Play()
+
+wait(1.2)
+
+local dis1 = ts:Create(Blur, TweenInfo.new(1), {ImageTransparency = 1})
+dis1:Play()
+
+local dis2 = ts:Create(Loader, TweenInfo.new(1), {BackgroundTransparency = 1})
+dis2:Play()
+
+local dis3 = ts:Create(Bar, TweenInfo.new(1), {BackgroundTransparency = 1})
+dis3:Play()
+
+local dis4 = ts:Create(Loaded, TweenInfo.new(1), {BackgroundTransparency = 1})
+dis4:Play()
+
+wait(0.2)
+
+local trans = ts:Create(aimloader, TweenInfo.new(1.5), {TextTransparency = 1})
+trans:Play()
+
+Loader.Visible = false
+
+local ping = Instance.new("TextLabel")
+local Basic = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Blurry = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local aimname = Instance.new("TextLabel")
+local Blurred = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local EspEnable = Instance.new("ImageButton")
+local TeamCheck = Instance.new("ImageButton")
+local AimEnable = Instance.new("ImageButton")
+local TeamText = Instance.new("TextLabel")
+local TeamCheck2 = Instance.new("ImageButton")
+local TeamText2 = Instance.new("TextLabel")
+local NameTogle = Instance.new("ImageButton")
+local Namet = Instance.new("TextLabel")
+local Close = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local Mini = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local line = Instance.new("ImageLabel")
+local EspText = Instance.new("TextLabel")
+local AimbotText = Instance.new("TextLabel")
+local InfJump = Instance.new("ImageButton")
+local InfText = Instance.new("TextLabel")
+local Bottom = Instance.new("Frame")
+local Yayy = Instance.new("UICorner")
+local Effect = Instance.new("ImageLabel")
+local newfr = Instance.new("UICorner")
+local GunsM = Instance.new("ImageButton")
+local meo = Instance.new("UICorner")
+local SilentAim = Instance.new("ImageButton")
+local SilentText = Instance.new("TextLabel")
+local SpeedText = Instance.new("TextLabel")
+local SpeedHack = Instance.new("ImageButton")
+local Mods = Instance.new("Frame")
+local cawd = Instance.new("UICorner")
+local Title_2 = Instance.new("Frame")
+local wacd = Instance.new("UICorner")
+local ModName = Instance.new("TextLabel")
+local abcblur = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local bloor = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local InfAmmo = Instance.new("ImageButton")
+local AmmoText = Instance.new("TextLabel")
+local FFSpeed = Instance.new("ImageButton")
+local FFSpeedText = Instance.new("TextLabel")
+local Recoil = Instance.new("ImageButton")
+local RecoilText = Instance.new("TextLabel")
+local Close_2 = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+
+ping.Name = "ping"
+ping.Parent = Main
+ping.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ping.BackgroundTransparency = 1.000
+ping.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ping.BorderSizePixel = 0
+ping.Position = UDim2.new(0.409000009, 0, 0, 0)
+ping.Size = UDim2.new(0, 329, 0, 62)
+ping.Font = Enum.Font.JosefinSans
+ping.Text = "\"RightShift\" To Open Menu"
+ping.TextColor3 = Color3.fromRGB(255, 255, 255)
+ping.TextSize = 22.000
+ping.TextStrokeTransparency = 0.000
+ping.TextTransparency = 1.000
+
+Basic.Name = "Basic"
+Basic.Parent = Main
+Basic.Active = true
+Basic.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Basic.BackgroundTransparency = 0.200
+Basic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Basic.BorderSizePixel = 0
+Basic.Draggable = true
+Basic.Position = UDim2.new(0.400606066, 0, 0.381736517, 0)
+Basic.Size = UDim2.new(0, 329, 0, 221)
+
+UICorner.Parent = Basic
+
+Blurry.Name = "Blurry"
+Blurry.Parent = Basic
+Blurry.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blurry.BackgroundTransparency = 1.000
+Blurry.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Blurry.BorderSizePixel = 0
+Blurry.Position = UDim2.new(-0.00483086752, 0, 0, 0)
+Blurry.Size = UDim2.new(0, 330, 0, 221)
+Blurry.Image = "http://www.roblox.com/asset/?id=6758962034"
+Blurry.ImageTransparency = 0.550
+
+UICorner_2.Parent = Blurry
+
+Title.Name = "Title"
+Title.Parent = Basic
+Title.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Title.BackgroundTransparency = 0.350
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Draggable = true
+Title.Position = UDim2.new(-0.00483086752, 0, 0, 0)
+Title.Size = UDim2.new(0, 331, 0, 24)
+
+UICorner_3.Parent = Title
+
+aimname.Name = "aimname"
+aimname.Parent = Title
+aimname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimname.BackgroundTransparency = 1.000
+aimname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aimname.BorderSizePixel = 0
+aimname.Position = UDim2.new(0, 0, -0.000333150238, 0)
+aimname.Size = UDim2.new(0, 329, 0, 25)
+aimname.Font = Enum.Font.JosefinSans
+aimname.Text = "\"Aim hub\""
+aimname.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimname.TextSize = 14.000
+aimname.TextWrapped = true
+
+Blurred.Name = "Blurred"
+Blurred.Parent = Title
+Blurred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blurred.BackgroundTransparency = 1.000
+Blurred.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Blurred.BorderSizePixel = 0
+Blurred.Position = UDim2.new(-0.00178288843, 0, 0, 0)
+Blurred.Size = UDim2.new(0, 332, 0, 24)
+Blurred.Image = "http://www.roblox.com/asset/?id=6758962034"
+Blurred.ImageTransparency = 0.550
+
+UICorner_4.Parent = Blurred
+
+EspEnable.Name = "EspEnable"
+EspEnable.Parent = Basic
+EspEnable.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+EspEnable.BackgroundTransparency = 1.000
+EspEnable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EspEnable.BorderSizePixel = 0
+EspEnable.Position = UDim2.new(0.258358657, 0, 0.244164556, 0)
+EspEnable.Size = UDim2.new(0, 16, 0, 16)
+EspEnable.Image = "http://www.roblox.com/asset/?id=1264513374"
+
+TeamCheck.Name = "TeamCheck"
+TeamCheck.Parent = Basic
+TeamCheck.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+TeamCheck.BackgroundTransparency = 1.000
+TeamCheck.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeamCheck.BorderSizePixel = 0
+TeamCheck.Position = UDim2.new(0.258358657, 0, 0.430164546, 0)
+TeamCheck.Size = UDim2.new(0, 16, 0, 16)
+TeamCheck.Image = "http://www.roblox.com/asset/?id=1264513374"
+
+AimEnable.Name = "AimEnable"
+AimEnable.Parent = Basic
+AimEnable.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+AimEnable.BackgroundTransparency = 1.000
+AimEnable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimEnable.BorderSizePixel = 0
+AimEnable.Position = UDim2.new(0.742358685, 0, 0.245164558, 0)
+AimEnable.Size = UDim2.new(0, 16, 0, 16)
+AimEnable.Image = "http://www.roblox.com/asset/?id=1264513374"
+
+TeamText.Name = "TeamText"
+TeamText.Parent = Basic
+TeamText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeamText.BackgroundTransparency = 1.000
+TeamText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeamText.BorderSizePixel = 0
+TeamText.Position = UDim2.new(0.450395137, 0, 0.424177229, 0)
+TeamText.Size = UDim2.new(0, 111, 0, 23)
+TeamText.Font = Enum.Font.JosefinSans
+TeamText.Text = "Team Check"
+TeamText.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeamText.TextSize = 10.000
+
+TeamCheck2.Name = "TeamCheck2"
+TeamCheck2.Parent = Basic
+TeamCheck2.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+TeamCheck2.BackgroundTransparency = 1.000
+TeamCheck2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeamCheck2.BorderSizePixel = 0
+TeamCheck2.Position = UDim2.new(0.742358685, 0, 0.431164563, 0)
+TeamCheck2.Size = UDim2.new(0, 16, 0, 16)
+TeamCheck2.Image = "http://www.roblox.com/asset/?id=1264515756"
+
+TeamText2.Name = "TeamText2"
+TeamText2.Parent = Basic
+TeamText2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeamText2.BackgroundTransparency = 1.000
+TeamText2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeamText2.BorderSizePixel = 0
+TeamText2.Position = UDim2.new(-0.0303951371, 0, 0.418177217, 0)
+TeamText2.Size = UDim2.new(0, 111, 0, 23)
+TeamText2.Font = Enum.Font.JosefinSans
+TeamText2.Text = "Team Check"
+TeamText2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeamText2.TextSize = 10.000
+
+NameTogle.Name = "NameTogle"
+NameTogle.Parent = Basic
+NameTogle.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+NameTogle.BackgroundTransparency = 1.000
+NameTogle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NameTogle.BorderSizePixel = 0
+NameTogle.Position = UDim2.new(0.258358657, 0, 0.610164583, 0)
+NameTogle.Size = UDim2.new(0, 16, 0, 16)
+NameTogle.Image = "http://www.roblox.com/asset/?id=1264515756"
+
+Namet.Name = "Namet"
+Namet.Parent = Basic
+Namet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Namet.BackgroundTransparency = 1.000
+Namet.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Namet.BorderSizePixel = 0
+Namet.Position = UDim2.new(-0.0303951371, 0, 0.602177203, 0)
+Namet.Size = UDim2.new(0, 111, 0, 23)
+Namet.Font = Enum.Font.JosefinSans
+Namet.Text = "Draw FOV"
+Namet.TextColor3 = Color3.fromRGB(255, 255, 255)
+Namet.TextSize = 10.000
+
+Close.Name = "Close"
+Close.Parent = Basic
+Close.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Close.BackgroundTransparency = 0.650
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.927358627, 0, 0.0253164563, 0)
+Close.Size = UDim2.new(0, 16, 0, 16)
+Close.Image = "http://www.roblox.com/asset/?id=10002373478"
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Close
+
+Mini.Name = "Mini"
+Mini.Parent = Basic
+Mini.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Mini.BackgroundTransparency = 0.650
+Mini.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mini.BorderSizePixel = 0
+Mini.Position = UDim2.new(0.837358654, 0, 0.0253164563, 0)
+Mini.Size = UDim2.new(0, 16, 0, 16)
+Mini.Image = "http://www.roblox.com/asset/?id=848237313"
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Mini
+
+line.Name = "line"
+line.Parent = Basic
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BackgroundTransparency = 1.000
+line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0.495440722, 0, 0.196202889, 0)
+line.Size = UDim2.new(0, 33, 0, 147)
+line.Image = "http://www.roblox.com/asset/?id=14519771515"
+
+EspText.Name = "EspText"
+EspText.Parent = Basic
+EspText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EspText.BackgroundTransparency = 1.000
+EspText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EspText.BorderSizePixel = 0
+EspText.Position = UDim2.new(-0.0303951371, 0, 0.234177217, 0)
+EspText.Size = UDim2.new(0, 111, 0, 23)
+EspText.Font = Enum.Font.JosefinSans
+EspText.Text = "Player ESP"
+EspText.TextColor3 = Color3.fromRGB(255, 255, 255)
+EspText.TextSize = 10.000
+
+AimbotText.Name = "AimbotText"
+AimbotText.Parent = Basic
+AimbotText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotText.BackgroundTransparency = 1.000
+AimbotText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotText.BorderSizePixel = 0
+AimbotText.Position = UDim2.new(0.450395137, 0, 0.231177211, 0)
+AimbotText.Size = UDim2.new(0, 111, 0, 23)
+AimbotText.Font = Enum.Font.JosefinSans
+AimbotText.Text = "Blatant Aimbot"
+AimbotText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimbotText.TextSize = 10.000
+
+InfJump.Name = "InfJump"
+InfJump.Parent = Basic
+InfJump.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+InfJump.BackgroundTransparency = 1.000
+InfJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.259076059, 0, 0.793481112, 0)
+InfJump.Size = UDim2.new(0, 16, 0, 16)
+InfJump.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+InfText.Name = "InfText"
+InfText.Parent = Basic
+InfText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfText.BackgroundTransparency = 1.000
+InfText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfText.BorderSizePixel = 0
+InfText.Position = UDim2.new(-0.0332827121, 0, 0.777658224, 0)
+InfText.Size = UDim2.new(0, 111, 0, 23)
+InfText.Font = Enum.Font.JosefinSans
+InfText.Text = "Infinite Jump"
+InfText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfText.TextSize = 10.000
+
+Bottom.Name = "Bottom"
+Bottom.Parent = Basic
+Bottom.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Bottom.BackgroundTransparency = 0.200
+Bottom.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bottom.BorderSizePixel = 0
+Bottom.Draggable = true
+Bottom.Position = UDim2.new(-0.00787019543, 0, 1.03784513, 0)
+Bottom.Size = UDim2.new(0, 331, 0, 31)
+
+Yayy.Name = "Yayy"
+Yayy.Parent = Bottom
+
+Effect.Name = "Effect"
+Effect.Parent = Bottom
+Effect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Effect.BackgroundTransparency = 1.000
+Effect.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Effect.BorderSizePixel = 0
+Effect.Position = UDim2.new(-0.00180053711, 0, 0, 0)
+Effect.Size = UDim2.new(0, 331, 0, 30)
+Effect.Image = "http://www.roblox.com/asset/?id=6758962034"
+Effect.ImageTransparency = 0.550
+
+newfr.Name = "newfr"
+newfr.Parent = Effect
+
+GunsM.Name = "GunsM"
+GunsM.Parent = Bottom
+GunsM.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+GunsM.BackgroundTransparency = 0.650
+GunsM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GunsM.BorderSizePixel = 0
+GunsM.Position = UDim2.new(0.0814373121, 0, 0.129032254, 0)
+GunsM.Size = UDim2.new(0, 76, 0, 22)
+GunsM.Image = "http://www.roblox.com/asset/?id=17430191337"
+
+meo.CornerRadius = UDim.new(0, 5)
+meo.Name = "meo"
+meo.Parent = GunsM
+
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = Basic
+SilentAim.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+SilentAim.BackgroundTransparency = 1.000
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.742358744, 0, 0.613827407, 0)
+SilentAim.Size = UDim2.new(0, 16, 0, 16)
+SilentAim.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+SilentText.Name = "SilentText"
+SilentText.Parent = Basic
+SilentText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentText.BackgroundTransparency = 1.000
+SilentText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentText.BorderSizePixel = 0
+SilentText.Position = UDim2.new(0.449999958, 0, 0.599004567, 0)
+SilentText.Size = UDim2.new(0, 111, 0, 23)
+SilentText.Font = Enum.Font.JosefinSans
+SilentText.Text = "OP Silent Aim"
+SilentText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentText.TextSize = 10.000
+
+SpeedText.Name = "SpeedText"
+SpeedText.Parent = Basic
+SpeedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedText.BackgroundTransparency = 1.000
+SpeedText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedText.BorderSizePixel = 0
+SpeedText.Position = UDim2.new(0.448801696, 0, 0.777553499, 0)
+SpeedText.Size = UDim2.new(0, 111, 0, 23)
+SpeedText.Font = Enum.Font.JosefinSans
+SpeedText.Text = "Speed Hack"
+SpeedText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedText.TextSize = 10.000
+
+SpeedHack.Name = "SpeedHack"
+SpeedHack.Parent = Basic
+SpeedHack.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+SpeedHack.BackgroundTransparency = 1.000
+SpeedHack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedHack.BorderSizePixel = 0
+SpeedHack.Position = UDim2.new(0.741797566, 0, 0.790223122, 0)
+SpeedHack.Size = UDim2.new(0, 16, 0, 16)
+SpeedHack.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+Mods.Name = "Mods"
+Mods.Parent = Main
+Mods.Active = true
+Mods.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Mods.BackgroundTransparency = 0.200
+Mods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mods.BorderSizePixel = 0
+Mods.Draggable = true
+Mods.Position = UDim2.new(0.712401628, 0, 0.391192794, 0)
+Mods.Size = UDim2.new(0, 183, 0, 221)
+Mods.Visible = false
+
+cawd.Name = "cawd"
+cawd.Parent = Mods
+
+Title_2.Name = "Title"
+Title_2.Parent = Mods
+Title_2.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Title_2.BackgroundTransparency = 0.350
+Title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderSizePixel = 0
+Title_2.Draggable = true
+Title_2.Position = UDim2.new(-0.00142020232, 0, 0, 0)
+Title_2.Size = UDim2.new(0, 183, 0, 24)
+
+wacd.Name = "wacd"
+wacd.Parent = Title_2
+
+ModName.Name = "ModName"
+ModName.Parent = Title_2
+ModName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ModName.BackgroundTransparency = 1.000
+ModName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModName.BorderSizePixel = 0
+ModName.Position = UDim2.new(-0.00955917314, 0, -0.000333150238, 0)
+ModName.Size = UDim2.new(0, 184, 0, 25)
+ModName.Font = Enum.Font.JosefinSans
+ModName.Text = "\"Weapon Mods\""
+ModName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModName.TextSize = 14.000
+ModName.TextWrapped = true
+
+abcblur.Name = "abcblur"
+abcblur.Parent = Title_2
+abcblur.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+abcblur.BackgroundTransparency = 1.000
+abcblur.BorderColor3 = Color3.fromRGB(0, 0, 0)
+abcblur.BorderSizePixel = 0
+abcblur.Position = UDim2.new(-0.00285597844, 0, 0, 0)
+abcblur.Size = UDim2.new(0, 183, 0, 24)
+abcblur.Image = "http://www.roblox.com/asset/?id=6758962034"
+abcblur.ImageTransparency = 0.550
+
+UICorner_7.Parent = abcblur
+
+bloor.Name = "bloor"
+bloor.Parent = Mods
+bloor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bloor.BackgroundTransparency = 1.000
+bloor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bloor.BorderSizePixel = 0
+bloor.Position = UDim2.new(-0.00142020232, 0, 0, 0)
+bloor.Size = UDim2.new(0, 183, 0, 221)
+bloor.Image = "http://www.roblox.com/asset/?id=6758962034"
+bloor.ImageTransparency = 0.550
+
+UICorner_8.Parent = bloor
+
+InfAmmo.Name = "InfAmmo"
+InfAmmo.Parent = Mods
+InfAmmo.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+InfAmmo.BackgroundTransparency = 1.000
+InfAmmo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfAmmo.BorderSizePixel = 0
+InfAmmo.Position = UDim2.new(0.660391748, 0, 0.16782707, 0)
+InfAmmo.Size = UDim2.new(0, 16, 0, 16)
+InfAmmo.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+AmmoText.Name = "AmmoText"
+AmmoText.Parent = Mods
+AmmoText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AmmoText.BackgroundTransparency = 1.000
+AmmoText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AmmoText.BorderSizePixel = 0
+AmmoText.Position = UDim2.new(0.100273088, 0, 0.152036086, 0)
+AmmoText.Size = UDim2.new(0, 111, 0, 23)
+AmmoText.Font = Enum.Font.JosefinSans
+AmmoText.Text = "Ammo Mod"
+AmmoText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmmoText.TextSize = 10.000
+
+FFSpeed.Name = "FFSpeed"
+FFSpeed.Parent = Mods
+FFSpeed.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+FFSpeed.BackgroundTransparency = 1.000
+FFSpeed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FFSpeed.BorderSizePixel = 0
+FFSpeed.Position = UDim2.new(0.660391748, 0, 0.317148328, 0)
+FFSpeed.Size = UDim2.new(0, 16, 0, 16)
+FFSpeed.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+FFSpeedText.Name = "FFSpeedText"
+FFSpeedText.Parent = Mods
+FFSpeedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FFSpeedText.BackgroundTransparency = 1.000
+FFSpeedText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FFSpeedText.BorderSizePixel = 0
+FFSpeedText.Position = UDim2.new(0.100273088, 0, 0.301357359, 0)
+FFSpeedText.Size = UDim2.new(0, 111, 0, 23)
+FFSpeedText.Font = Enum.Font.JosefinSans
+FFSpeedText.Text = "FireRate Mod"
+FFSpeedText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FFSpeedText.TextSize = 10.000
+
+Recoil.Name = "Recoil"
+Recoil.Parent = Mods
+Recoil.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+Recoil.BackgroundTransparency = 1.000
+Recoil.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Recoil.BorderSizePixel = 0
+Recoil.Position = UDim2.new(0.660391748, 0, 0.467148328, 0)
+Recoil.Size = UDim2.new(0, 16, 0, 16)
+Recoil.Image = "http://www.roblox.com/asset/?id=17397360339"
+
+RecoilText.Name = "RecoilText"
+RecoilText.Parent = Mods
+RecoilText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RecoilText.BackgroundTransparency = 1.000
+RecoilText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RecoilText.BorderSizePixel = 0
+RecoilText.Position = UDim2.new(0.100273088, 0, 0.450357359, 0)
+RecoilText.Size = UDim2.new(0, 111, 0, 23)
+RecoilText.Font = Enum.Font.JosefinSans
+RecoilText.Text = "Recoil Mod"
+RecoilText.TextColor3 = Color3.fromRGB(255, 255, 255)
+RecoilText.TextSize = 10.000
+
+Close_2.Name = "Close"
+Close_2.Parent = Mods
+Close_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Close_2.BackgroundTransparency = 0.650
+Close_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.861785054, 0, 0.016266698, 0)
+Close_2.Size = UDim2.new(0, 16, 0, 16)
+Close_2.Image = "http://www.roblox.com/asset/?id=10002373478"
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Close_2
+
+wait(0.5)
+
+Basic.Visible = true
+
+local appear = ts:Create(Basic, TweenInfo.new(1.5), {BackgroundTransparency = 0.2})
+appear:Play()
+
+Close.MouseButton1Down:connect(function()
+	Basic:Destroy()
+end)
+
+GunsM.MouseButton1Down:connect(function()
+	Mods.Visible = true
+end)
+
+Close_2.MouseButton1Down:connect(function()
+	Mods.Visible = false
+end)
+
+Recoil.MouseButton1Down:connect(function()
+	local replicationstorage = game.ReplicatedStorage
+ 
+	while wait(5) do
+		
+	for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+		if v.Name == "RecoilControl" then
+			v.Value = 0
+		end
+		if v.Name == "MaxSpread" then
+			v.Value = 0
+		end
+
+	end
+end
+
+end)
+
+InfJump.MouseButton1Down:connect(function()
+local InfiniteJumpEnabled = true
+
+game:GetService("UserInputService").JumpRequest:Connect(function()
+    if InfiniteJumpEnabled then
+        game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+    end
+end)
+end)
+
+SpeedHack.MouseButton1Down:connect(function()
+	_G.WS = "100";
+        local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+        Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+        Humanoid.WalkSpeed = _G.WS;
+        end)
+        Humanoid.WalkSpeed = _G.WS;
+end)
+
+FFSpeed.MouseButton1Down:connect(function()
+	local replicationstorage = game.ReplicatedStorage
+ 
+	while wait(5) do
+		
+	for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+		if v.Name == "Auto" then
+			v.Value = true
+		end
+		if v.Name == "FireRate" then
+			v.Value = 0.02
+		end
+	 end
+
+	end
+end)
+
+SilentAim.MouseButton1Down:connect(function()
+	function getplrsname()
+		for i,v in pairs(game:GetChildren()) do
+			if v.ClassName == "Players" then
+				return v.Name
+			end
+		end
+	end
+	local players = getplrsname()
+	local plr = game[players].LocalPlayer
+	coroutine.resume(coroutine.create(function()
+		while  wait(1) do
+			coroutine.resume(coroutine.create(function()
+				for _,v in pairs(game[players]:GetPlayers()) do
+					if v.Name ~= plr.Name and v.Character then
+						v.Character.RightUpperLeg.CanCollide = false
+						v.Character.RightUpperLeg.Transparency = 10
+						v.Character.RightUpperLeg.Size = Vector3.new(13,13,13)
+
+						v.Character.LeftUpperLeg.CanCollide = false
+						v.Character.LeftUpperLeg.Transparency = 10
+						v.Character.LeftUpperLeg.Size = Vector3.new(13,13,13)
+
+						v.Character.HeadHB.CanCollide = false
+						v.Character.HeadHB.Transparency = 10
+						v.Character.HeadHB.Size = Vector3.new(13,13,13)
+
+						v.Character.HumanoidRootPart.CanCollide = false
+						v.Character.HumanoidRootPart.Transparency = 10
+						v.Character.HumanoidRootPart.Size = Vector3.new(13,13,13)
+
+					end
+				end
+			end))
+		end
+	end))
+end)
+
+InfAmmo.MouseButton1Down:connect(function()
+	local replicationstorage = game.ReplicatedStorage
+
+while wait() do
+    game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount.Value = 999
+    game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount2.Value = 999
+end
+end)
+
+local MenuIsToggled = true
+
+Mini.MouseButton1Down:connect(function()
+	Basic.Visible = false
+
+    MenuIsToggled = false
+
+	local minimize = ts:Create(ping, TweenInfo.new(1), {TextTransparency = 0})
+	minimize:Play()
+
+	wait(3)
+
+	local unominimize = ts:Create(ping, TweenInfo.new(1), {TextTransparency = 1})
+	unominimize:Play()
+
+end)
+
+uis.InputBegan:Connect(function (input)
+	if input.KeyCode == Enum.KeyCode.RightShift then
+		if MenuIsToggled == false then
+		local reopen = ts:Create(Basic, TweenInfo.new(1.5), {Visible = true})
+		reopen:Play()
+
+		MenuIsToggled = true
+	end
+	end
+end)
+
+local toggled = false
+
+EspEnable.MouseButton1Down:connect(function()
+	if toggled == false then
+		toggled = true
+		EspEnable.Image = "http://www.roblox.com/asset/?id=1264515756"
+	else do
+			toggled = false
+			EspEnable.Image = "http://www.roblox.com/asset/?id=1264513374"
+			
+		end
+	end
+end)
+
+_G.sizeof = 55
+_G.AimOn = false
+_G.TeamCheckOn = true
+_G.Aimpart = "Head"
+_G.Sensitivity = 0.03
+_G.CircleSides = 64
+_G.CircleColor = Color3.fromRGB(255, 255, 255)
+_G.CircleVisible = true
+_G.fovTransparency = 0
+
+AimEnable.MouseButton1Down:connect(function()
+	if AimOn == false then
+		AimOn = true
+		_G.fovTransparency = 1
+		AimEnable.Image = "http://www.roblox.com/asset/?id=1264515756"
+	else do
+		AimOn = false
+		_G.fovTransparency = 0
+		AimEnable.Image = "http://www.roblox.com/asset/?id=1264513374"
+			
+		end
+	end
+end)
+
+
+local activated = false
+
+TeamCheck.MouseButton1Down:connect(function()
+	if activated == false then
+		activated = true
+		TeamCheck.Image = "http://www.roblox.com/asset/?id=1264515756"
+	else do
+		activated = false
+			TeamCheck.Image = "http://www.roblox.com/asset/?id=1264513374"
+			
+		end
+	end
+end)
+
+TeamCheck2.MouseButton1Down:connect(function()
+	if _G.TeamCheckOn == false then
+		_G.TeamCheckOn = true
+		TeamCheck2.Image = "http://www.roblox.com/asset/?id=1264515756"
+	else do
+		_G.TeamCheckOn = false
+			TeamCheck2.Image = "http://www.roblox.com/asset/?id=1264513374"
+			
+		end
+	end
+end)
+
+NameTogle.MouseButton1Down:connect(function()
+	if _G.CircleVisible == false then
+		_G.CircleVisible = true
+		NameTogle.Image = "http://www.roblox.com/asset/?id=1264515756"
+	else do
+		_G.CircleVisible = false
+		NameTogle.Image = "http://www.roblox.com/asset/?id=1264513374"
+			
+		end
+	end
+end)
+
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local esp = Instance.new("BillboardGui")
+local name = Instance.new("TextLabel")
+local mainesp = Instance.new("BillboardGui")
+local box = Instance.new("ImageLabel")
+local LocalPlayer = Players.LocalPlayer
+
+esp.Name = "esp" 
+esp.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+esp.Active = true
+esp.AlwaysOnTop = true
+esp.LightInfluence = 1.000
+esp.Size = UDim2.new(0, 300, 0, 30)
+esp.StudsOffset = Vector3.new(0, 3, 0)
+
+name.Name = "name"
+name.Parent = esp
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+name.BorderSizePixel = 0
+name.Size = UDim2.new(1, 0, 1, 0)
+name.Font = Enum.Font.Ubuntu
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextScaled = false
+name.TextSize = 9.000
+name.TextStrokeTransparency = 0.000
+name.TextWrapped = true
+name.TextTransparency = 1
+
+mainesp.Name = "mainesp"
+mainesp.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+mainesp.Active = true
+mainesp.AlwaysOnTop = true
+mainesp.LightInfluence = 1.000
+mainesp.MaxDistance = 999999.000
+mainesp.Size = UDim2.new(4, 0, 6, 0)
+
+box.Name = "box"
+box.Parent = mainesp
+box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+box.BackgroundTransparency = 1.000
+box.BorderColor3 = Color3.fromRGB(0, 0, 0)
+box.BorderSizePixel = 0
+box.Size = UDim2.new(1, 0, 1, 0)
+box.Image = "http://www.roblox.com/asset/?id=16946608585"
+box.ImageTransparency = 1
+
+RunService.RenderStepped:Connect(function()
+	for i, v in pairs(Players:GetChildren()) do
+		local sigma = Players.LocalPlayer
+		if not v.Character.Head:FindFirstChild("esp") then
+			if v ~= game.Players.LocalPlayer then
+			    local sigma = Players.LocalPlayer
+				local nameClone = esp:Clone()
+				local espClone = mainesp:Clone()
+				nameClone.Parent = v.Character:FindFirstChild("Head")
+				nameClone:FindFirstChild("name").Text = nameClone.Parent.Parent.Name
+				espClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+			end
+
+		end
+
+	end
+end)
+
+Players.PlayerAdded:Connect(function(player)
+	local sigma = Players.LocalPlayer
+	if not player.Character.Head:FindFirstChild("esp") then
+		if player ~= game.Players.LocalPlayer then
+		    local sigma = Players.LocalPlayer
+			local nameClone = esp:Clone()
+			local espClone = mainesp:Clone()
+			nameClone.Parent = player.Character:FindFirstChild("Head")
+			nameClone:FindFirstChild("name").Text = nameClone.Parent.Parent.Name
+			wait(1)
+			espClone.Parent = player.Character:FindFirstChild("HumanoidRootPart")
+			 end
+
+	end
+end)
+
+RunService.RenderStepped:Connect(function()
+    for i, v in pairs(Players:GetChildren()) do
+		local me = Players.LocalPlayer
+		if activated == true then
+		if v ~= me then
+			if v.Team == me.Team then
+				if v.Character.Head:FindFirstChild("esp") then
+				v.Character.Head:FindFirstChild("esp"):Destroy()
+				v.Character.HumanoidRootPart:FindFirstChild("mainesp"):Destroy()
+				end
+			end
+		end
+		end
+	end
+end)
+
+Players.PlayerAdded:Connect(function(player)
+    local me = Players.LocalPlayer
+	if player ~= me then
+		if activated == true then
+	if player.Team == me.Team then
+		if player.Character.Head:FindFirstChild("esp") then
+		player.Character.Head:FindFirstChild("esp"):Destroy()
+		player.Character.HumanoidRootPart:FindFirstChild("mainesp"):Destroy()
+		end
+	end
+	end
+	end
+end)
+
+RunService.RenderStepped:Connect(function()
+	for i, v in pairs(Players:GetChildren()) do
+		if toggled == true then
+			if v.Character.Head:FindFirstChild("esp") then
+				if v.Character.HumanoidRootPart:FindFirstChild("mainesp") then
+				v.Character.Head:FindFirstChild("esp").name.TextTransparency = 0
+				v.Character.HumanoidRootPart:FindFirstChild("mainesp").box.ImageTransparency = 0.43
+				end
+			end
+		else do
+			if v.Character.Head:FindFirstChild("esp") then
+				if v.Character.HumanoidRootPart:FindFirstChild("mainesp") then
+			v.Character.Head:FindFirstChild("esp").name.TextTransparency = 1
+			v.Character.HumanoidRootPart:FindFirstChild("mainesp").box.ImageTransparency = 1
+				end
+			end
+	end
+		end
+	end
+end)
+
+local Holding = false
+
+local FovCircle = Drawing.new("Circle")
+FovCircle.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+FovCircle.Radius = _G.sizeof
+FovCircle.Color = _G.CircleColor
+FovCircle.Visible = _G.CircleVisible
+FovCircle.NumSides = _G.CircleSides
+FovCircle.Filled = false
+FovCircle.Transparency = _G.fovTransparency
+FovCircle.Thickness = 0
+
+local function GetClosestPlayer()
+	local Target = nil
+	local MaxDistance = _G.sizeof
+
+	for i, v in next, Players:GetChildren() do
+		if v.Name ~= LocalPlayer.Name then
+			if _G.TeamCheckOn == true then
+				if v.Team ~= LocalPlayer.Team then
+					if v.Character ~= nil then
+						if v.Character:FindFirstChild("HumanoidRootPart") ~= nil then
+							if v.Character:FindFirstChild("Humanoid") ~= nil then
+								if v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+								local ScreenPoint = Camera:WorldToScreenPoint(v.Character:WaitForChild("HumanoidRootPart", math.huge).Position)
+								local VectorDistance = (Vector2.new(uis:GetMouseLocation().X, uis:GetMouseLocation().Y) - Vector2.new(ScreenPoint.X, ScreenPoint.Y)).Magnitude
+
+								if VectorDistance < MaxDistance then
+									Target = v
+								end
+								end
+							end
+						end
+					end
+				end
+			else
+				if v.Character ~= nil then
+					if v.Character:FindFirstChild("HumanoidRootPart") ~= nil then
+						if v.Character:FindFirstChild("Humanoid") ~= nil then
+							if v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+							local ScreenPoint = Camera:WorldToScreenPoint(v.Character:WaitForChild("HumanoidRootPart", math.huge).Position)
+							local VectorDistance = (Vector2.new(uis:GetMouseLocation().X, uis:GetMouseLocation().Y) - Vector2.new(ScreenPoint.X, ScreenPoint.Y)).Magnitude
+
+							if VectorDistance < MaxDistance then
+								Target = v
+							end
+							end
+						end
+					end
+			end
+		end
+	end
+end
+
+return Target
+end
+
+uis.InputBegan:Connect(function(Input)
+	if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+		Holding = true
+	end
+end)
+
+uis.InputEnded:Connect(function(Input)
+	if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+		Holding = false
+	end
+end)
+
+RunService.RenderStepped:Connect(function ()
+	FovCircle.Position = Vector2.new(uis:GetMouseLocation().X, uis:GetMouseLocation().Y)
+    FovCircle.Radius = _G.sizeof
+    FovCircle.Color = _G.CircleColor
+    FovCircle.Visible = _G.CircleVisible
+    FovCircle.NumSides = _G.CircleSides
+    FovCircle.Filled = false
+    FovCircle.Transparency = _G.fovTransparency
+    FovCircle.Thickness = 0
+
+	if Holding == true and AimOn == true then
+		ts:Create(Camera, TweenInfo.new(_G.Sensitivity, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(Camera.CFrame.Position, GetClosestPlayer().Character[_G.Aimpart].Position)}):Play()
+
+	end
+end)
